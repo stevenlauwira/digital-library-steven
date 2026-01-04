@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sena rion - digital produk</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #38bdf8;
+            padding: 3px;
+            margin-bottom: 10px;
+        }
+
+        h2 { font-size: 1.4rem; margin: 10px 0 5px; }
+        p.subtitle { color: #94a3b8; font-size: 0.9rem; margin-bottom: 25px; }
+
+        /* --- FITUR NOTE WARNING --- */
+        .note-container {
+            background-color: rgba(56, 189, 248, 0.1); /* Biru transparan */
+            border-left: 4px solid #38bdf8;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .note-title {
+            display: flex;
+            align-items: center;
+            color: #38bdf8;
+            font-weight: bold;
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .note-text {
+            color: #cbd5e1;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        /* -------------------------- */
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .link-card {
+            background-color: #1e293b;
+            color: #f8fafc;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid #334155;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .link-card:hover {
+            transform: scale(1.02);
+            border-color: #38bdf8;
+            background-color: #1e293b;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.15);
+        }
+
+        .icon { position: absolute; left: 20px; font-size: 1.2rem; }
+
+        footer { margin-top: 50px; font-size: 0.75rem; color: #475569; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://ui-avatars.com/api/?name=SL&background=38bdf8&color=fff" alt="Profile" class="profile-img">
+        
+        <h2>Digital Library</h2>
+        <p class="subtitle">E-book & Resourches Terpilih</p>
+
+        <div class="note-container">
+            <div class="note-title">
+                <span style="margin-right: 8px;">ℹ️</span> Informasi Penting
+            </div>
+            <div class="note-text">
+                Halo Kak! Mohon pastikan kembali pesanan Anda sebelum melakukan pembayaran. Karena produk ini bersifat digital, item yang sudah dibeli <b>tidak dapat dilakukan refund/pengembalian</b>. Terima kasih atas pengertiannya.
+            </div>
+        </div>
+
+        <div class="links-container">
+            <a href="https://forms.gle/LRaYSKzUFy97rhMf8" class="link-card">
+                <span class="icon">📚</span> Koleksi E-Book Premium
+            </a>
+            <!-- <a href="URL_INSTAGRAM_ANDA" class="link-card" target="_blank">
+                <span class="icon">📸</span> Instagram Portofolio
+            </a> -->
+            <a href="https://www.facebook.com/groups/1554075539213949" class="link-card">
+                <span class="icon">👥</span> Grup Facebook Komunitas
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61577394128555" class="link-card">
+                <span class="icon">💬</span> Tanya Admin (messanger)
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 steven lauwira. All Rights Reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
